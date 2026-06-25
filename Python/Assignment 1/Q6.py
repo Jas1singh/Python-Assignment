@@ -1,5 +1,5 @@
 # Python Assignment 1
-# Question 6
+# Question 6 : Print User Details
 
 name = input("Enter Name: ")
 age = input("Enter Age: ")

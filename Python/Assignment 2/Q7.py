@@ -1,5 +1,5 @@
 # Python Assignment 2
-# Question 7
+# Question 7 : Temperature Converter
 
 celsius = float(input("Enter temperature in Celsius: "))
 

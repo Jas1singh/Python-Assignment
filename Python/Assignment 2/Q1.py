@@ -1,5 +1,5 @@
 # Python Assignment 2
-# Question 1
+# Question 1 : Time Converter
 
 total_seconds = int(input("Total event duration in seconds: "))
 

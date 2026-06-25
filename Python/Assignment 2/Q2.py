@@ -1,5 +1,5 @@
 # Python Assignment 2
-# Question 2
+# Question 2 : Lifetime Calculator
 
 age = int(input("Enter your age in years: "))
 

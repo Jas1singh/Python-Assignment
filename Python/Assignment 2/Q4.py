@@ -1,5 +1,5 @@
 # Python Assignment 2
-# Question 4
+# Question 4 : Travel Fare Calculator
 
 distance = float(input("Enter distance traveled (km): "))
 

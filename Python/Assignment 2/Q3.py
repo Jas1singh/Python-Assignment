@@ -1,5 +1,5 @@
 # Python Assignment 2
-# Question 3
+# Question 3 : Split the Bill
 
 total_bill = float(input("Enter total bill amount: "))
 friends = int(input("Enter number of friends: "))

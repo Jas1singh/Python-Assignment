@@ -1,5 +1,5 @@
 # Python Assignment 2
-# Question 6
+# Question 6 : Smart Coin Machine
 
 amount = int(input("Enter amount: ₹"))
 

@@ -1,5 +1,5 @@
 # Python Assignment 2
-# Question 8
+# Question 8 : Simple Interest Calculator
 
 principal = float(input("Enter principal amount: "))
 rate = float(input("Enter rate of interest: "))

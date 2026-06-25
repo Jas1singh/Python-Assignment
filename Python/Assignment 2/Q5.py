@@ -1,5 +1,5 @@
 # Python Assignment 2
-# Question 5
+# Question 5 : Shopping Tax Calculator
 
 cart_total = float(input("Enter cart total amount: ₹"))
 

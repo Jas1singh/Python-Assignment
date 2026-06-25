@@ -1,5 +1,5 @@
 # Python Assignment 1
-# Question 9
+# Question 9 : Three Inputs Display
 
 value1 = input("Enter first value: ")
 value2 = input("Enter second value: ")

@@ -1,5 +1,5 @@
 # Python Assignment 1
-# Question 11
+# Question 11 : Greeting Message
 
 name = input("Enter your name: ")
 

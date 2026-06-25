@@ -1,5 +1,5 @@
 # Python Assignment 1
-# Question 12
+# Question 12 : Favorite Things
 
 food = input("Enter your favorite food: ")
 color = input("Enter your favorite color: ")
