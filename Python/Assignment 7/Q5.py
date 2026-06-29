@@ -1,7 +1,7 @@
 # Assignment 7
 # Question 5 : Palindrome Check
 
-num = int(input("Enter number: "))
+num = int(input("Enter number : "))
 
 original = num
 rev = 0

@@ -1,12 +1,12 @@
 # Assignment 7
 # Question 1 : Sum of First N Natural Numbers
 
-n = int(input("Enter n: "))
+number = int(input("Enter n: "))
 
 total = 0
 
-for i in range(1, n + 1):
-    total += i
+for i in range(1, number + 1):
+    total = total + i
 
-print("Total Points =", total)
+print("Total no. of ways = ", total)
 

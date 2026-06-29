@@ -6,7 +6,7 @@ b = int(input("Enter second number: "))
 
 while a <= b:
     if a % 2 == 0:
-        print(a, end=" ")
+        print(a)
 
-    a += 1
+    a = a + 1
 

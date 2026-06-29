@@ -9,9 +9,9 @@ while num > 0:
     digit = num % 10
 
     if digit % 2 == 0:
-        count += 1
+        count = count + 1
 
-    num //= 10
+    num = num // 10
 
 print("Even digits count =", count)
 

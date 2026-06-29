@@ -3,18 +3,18 @@
 
 num = int(input("Enter number: "))
 
-flag = True
+check = 1
 
 while num > 0:
     digit = num % 10
 
     if digit % 2 != 0:
-        flag = False
+        check = 0
         break
 
-    num //= 10
+    num = num // 10
 
-if flag:
+if check==1:
     print("All Even")
 else:
     print("Not All Even")

@@ -1,7 +1,7 @@
 # Assignment 8
 # Question 5 : Count Factors of Number
 
-number = int(input())
+number = int(input("Enter a Number : "))
 
 count = 0
 

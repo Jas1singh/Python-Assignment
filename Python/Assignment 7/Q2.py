@@ -1,12 +1,12 @@
 # Assignment 7
 # Question 2 : Factorial of a Number
 
-n = int(input("Enter number: "))
+number = int(input("Enter number: "))
 
 fact = 1
 
-for i in range(1, n + 1):
-    fact *= i
+for i in range(1, number + 1):
+    fact = fact * i
 
-print("Total Ways =", fact)
+print("Total points earned = ", fact)
 
