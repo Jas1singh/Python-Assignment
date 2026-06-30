@@ -16,7 +16,7 @@ if squre%(10**count)==num:
        print("Automorphic Number")
 
 else:
-       print("Not ")
+       print("Not Automorphic Number ")
 
 
 

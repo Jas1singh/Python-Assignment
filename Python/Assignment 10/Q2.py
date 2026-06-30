@@ -1,5 +1,6 @@
 # Assignment 10
 # Question 2 : Count Numbers Divisible by 7 Between Two Numbers
+
 a = int(input("Enter the  first Number : "))
 b = int(input("Enter the second Number : "))
 

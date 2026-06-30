@@ -1,5 +1,5 @@
 # Assignment 11
-# Question 4 : Composite Number Detector
+# Question 4 : Prime Checker Advanced 
 
 n = int(input())
 
