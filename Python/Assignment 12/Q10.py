@@ -8,14 +8,14 @@ if mode == 1:
     destination = int(input())
 
     for i in range(current, destination + 1):
-        print(i, end=" ")
+        print(i)
 
 elif mode == 2:
     current = int(input())
     destination = int(input())
 
     for i in range(current, destination - 1, -1):
-        print(i, end=" ")
+        print(i)
 
 elif mode == 3:
     destination = int(input())
