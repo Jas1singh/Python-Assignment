@@ -7,7 +7,7 @@ sum = 0
 
 for i in range(1, number + 1):
     if number % i == 0:
-        sum = sum + 1
+        sum = sum + i
 
 print("Sum of Factors =", sum)
 
