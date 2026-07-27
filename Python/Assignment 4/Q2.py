@@ -7,7 +7,7 @@ interest_Rate = int (input("Enter the interest rate : "))
 Total_Months = int (input("Enter the installment months : "))
 
 Mobile_price = Mobile_price-Down_Payment
-Total_With_Interest = (Mobile_price*10/100)+Mobile_price
+Total_With_Interest = (Mobile_price*interest_Rate/100)+Mobile_price
 
 EMI = Total_With_Interest/Total_Months
 

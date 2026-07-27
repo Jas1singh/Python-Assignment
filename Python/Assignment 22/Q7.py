@@ -28,7 +28,7 @@ good : 1
 s = input("Enter the string: ")
 words = s.split()
 
-printed = []
+printed = ""
 
 for word in words:
     if word not in printed:
@@ -37,4 +37,4 @@ for word in words:
             if w == word:
                 count += 1
         print(word, ":", count)
-        printed.append(word)
+        printed= printed + word

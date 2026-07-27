@@ -10,7 +10,8 @@ last_digit = Overs%10
 Overs = Overs//10
 
 Total_Balls = Overs*6 + last_digit
-
+# print(Overs)
+# print(65//10)
 Run_Rate= Runs/Overs
 
 print("Toal Balls = ", int(Total_Balls))

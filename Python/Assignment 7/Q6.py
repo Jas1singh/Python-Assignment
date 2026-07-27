@@ -16,3 +16,18 @@ if original == sum:
 else:
     print("Not Armstrong")
 
+
+
+# num = int(input("Enter number: "))
+
+# for i in range(1,num+1):
+#     original = i
+#     sum = 0
+#     while i > 0:
+#         digit = i % 10
+#         sum = sum + digit ** 3
+#         i = i // 10
+
+#     if original == sum:
+#         print(original,end=" ")
+

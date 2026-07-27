@@ -14,5 +14,5 @@ while num > 0:
 
     num = num // 10
 
-print(count)
+print(search,"=",count,"times")
 
