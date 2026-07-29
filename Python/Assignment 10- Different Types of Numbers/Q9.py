@@ -3,13 +3,13 @@
 
 num = input("Enter the Number : ")
 
-step = []
+step = ""
 total = 0
 largest = 0
 
 for i in range(len(num) - 1):
     diff = abs(int(num[i]) - int(num[i + 1]))
-    step.append(diff)
+    step = step + str(diff)
 
     total = total + diff
 
