@@ -134,39 +134,57 @@ No valid data found
 
 size = int(input("Enter the size of the list: "))
 
-nums = []
+responses = []
 
 for i in range(size):
     x = int(input("Enter the numbers: "))
-    nums.append(x)
+    responses.append(x)
 
 mostFreq = 0
-leastFreq = len(nums)
+leastFreq = len(responses)
 visited = []
+freqCount = []
+res = []
 
-for i in nums:
+for i in responses:
     if i not in visited:
 
         if i < 1:
             continue
 
         count = 0
-
-        for j in nums:
+        for j in responses:
             if i == j:
                 count += 1
 
         print(i, "->", count)
+        freqCount.append(count)
+        res.append(i)
 
         if count > mostFreq:
             mostFreq = count
-            mostNum = i
 
         if count < leastFreq:
             leastFreq = count
-            leastNum = i
 
         visited.append(i)
 
-print("Most Frequency :", mostFreq)
-print("Least Frequency :", leastFreq)
+
+# print("Frequency :", freqCount)
+# print("Response :", res)
+
+large = max(freqCount)
+small = min(freqCount)
+mostFreqNum = []
+leastFreqNum = []
+
+for freq, n in zip(freqCount,res):
+    if freq==large:
+        mostFreqNum.append(n)
+
+    elif freq==small:
+        leastFreqNum.append(n)   
+
+print("Most Frequent :", mostFreqNum)
+print("Least Frequent :", leastFreqNum)
+
