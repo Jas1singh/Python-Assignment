@@ -47,9 +47,11 @@ for i in A:
     if i >= 0:
         R[positive] = i
         positive += 2
+        
     else:
         R[negative] = i
         negative += 2
 
-print(R)
 
+# R = [[0] * 3] * 3
+# print(R)
