@@ -31,7 +31,7 @@ coding_club = set()
 robotics_club = set()
 
 while True:
-    print("\n===== STUDENT CLUB MEMBERSHIP SYSTEM =====")
+    print("\nSTUDENT CLUB MEMBERSHIP SYSTEM\n")
     print("1. Add Student to Coding Club")
     print("2. Add Student to Robotics Club")
     print("3. Display Students in Coding Club")
@@ -45,46 +45,49 @@ while True:
 
     choice = int(input("Enter choice: "))
 
-    if choice == 1:
-        student = input("Enter Student ID: ")
-        coding_club.add(student)
-        print("Student added to Coding Club.")
+    match choice:
+        case 1:
+            student = input("Enter Student ID: ")
+            coding_club.add(student)
+            print("Student added to Coding Club.")
 
-    elif choice == 2:
-        student = input("Enter Student ID: ")
-        robotics_club.add(student)
-        print("Student added to Robotics Club.")
+        case 2:
+            student = input("Enter Student ID: ")
+            robotics_club.add(student)
+            print("Student added to Robotics Club.")
 
-    elif choice == 3:
-        print("Coding Club:", coding_club)
+        case 3:
+            print("Coding Club:", coding_club)
 
-    elif choice == 4:
-        print("Robotics Club:", robotics_club)
+        case 4:
+            print("Robotics Club:", robotics_club)
 
-    elif choice == 5:
-        print("Students in Both Clubs:",
-              coding_club.intersection(robotics_club))
+        case 5:
+            print("Students in Both Clubs:",
+            coding_club.intersection(robotics_club))
 
-    elif choice == 6:
-        print("Only in Coding Club:",
-              coding_club.difference(robotics_club))
+        case 6:
+            print("Only in Coding Club:",
+            coding_club.difference(robotics_club))
 
-    elif choice == 7:
-        print("Only in Robotics Club:",
-              robotics_club.difference(coding_club))
+        case 7:
+            print("Only in Robotics Club:",
+            robotics_club.difference(coding_club))
 
-    elif choice == 8:
-        print("All Unique Members:",
-              coding_club.union(robotics_club))
+        case 8:
+            print("All Unique Members:",
+            coding_club.union(robotics_club))
 
-    elif choice == 9:
-        unique_members = coding_club.union(robotics_club)
-        print("Total Unique Members:", len(unique_members))
+        case 9:
+            unique_members = coding_club.union(robotics_club)
+            print("Total Unique Members:", len(unique_members))
 
-    elif choice == 10:
-        print("Program ended.")
-        break
+        case 10:
+            print("Exiting..........")
+            break
 
-    else:
-        print("Invalid choice.")
+        case _:
+            print("Invalid choice.")
 
+
+print("Thank You for using Student Club Membership System !!")   

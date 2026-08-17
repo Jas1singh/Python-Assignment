@@ -25,7 +25,7 @@ string1 = ""
 string2 = ""
 
 while True:
-    print("\n===== COMMON CHARACTER FINDER =====")
+    print("\nCOMMON CHARACTER FINDER\n")
     print("1. Enter First String")
     print("2. Enter Second String")
     print("3. Display Common Characters")
@@ -49,7 +49,7 @@ while True:
         print("Count of Common Characters:", len(common))
 
     elif choice == 5:
-        print("Program ended.")
+        print("Exiting.........")
         break
 
     else:

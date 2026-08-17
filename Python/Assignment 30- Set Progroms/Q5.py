@@ -22,7 +22,7 @@ Requirements:
 isbn_numbers = set()
 
 while True:
-    print("\n===== LIBRARY ISBN MANAGER =====")
+    print("\nLIBRARY ISBN MANAGER\n")
     print("1. Add ISBN")
     print("2. Remove ISBN")
     print("3. Search ISBN")
@@ -65,7 +65,7 @@ while True:
         print("Total Books:", len(isbn_numbers))
 
     elif choice == 6:
-        print("Program ended.")
+        print("Exiting........")
         break
 
     else:

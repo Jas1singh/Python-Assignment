@@ -17,12 +17,10 @@ Requirements:
 - Use Set containing a-z.
 '''
 
-import string
-
 sentence = ""
 
 while True:
-    print("\n===== MISSING ALPHABET FINDER =====")
+    print("\nMISSING ALPHABET FINDER\n")
     print("1. Enter Sentence")
     print("2. Display Missing Alphabets")
     print("3. Count Missing Alphabets")
@@ -34,15 +32,19 @@ while True:
         sentence = input("Enter Sentence: ").lower()
 
     elif choice == 2:
-        alphabets = set(string.ascii_lowercase)
-        present = set(sentence)
+        if sentence=="":
+            print("No sentence is found !!")
 
-        missing = alphabets.difference(present)
+        else:
+            alphabets = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'}
+            present = set(sentence)
 
-        print("Missing Alphabets:", sorted(missing))
+            missing = alphabets.difference(present)
+
+            print("Missing Alphabets:", sorted(missing))
 
     elif choice == 3:
-        alphabets = set(string.ascii_lowercase)
+        alphabets = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'}
         present = set(sentence)
 
         missing = alphabets.difference(present)
@@ -50,8 +52,9 @@ while True:
         print("Count of Missing Alphabets:", len(missing))
 
     elif choice == 4:
-        print("Program ended.")
+        print("Exiting.........")
         break
 
     else:
         print("Invalid choice.")
+        

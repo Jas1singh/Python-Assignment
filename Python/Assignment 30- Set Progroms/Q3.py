@@ -24,7 +24,7 @@ Requirements:
 visitors = set()
 
 while True:
-    print("\n===== WEBSITE VISITOR TRACKING SYSTEM =====")
+    print("\nWEBSITE VISITOR TRACKING SYSTEM\n")
     print("1. Add Visitor")
     print("2. Remove Visitor")
     print("3. Check Visitor")
@@ -35,41 +35,43 @@ while True:
 
     choice = int(input("Enter choice: "))
 
-    if choice == 1:
-        visitor_id = input("Enter Visitor ID: ")
-        visitors.add(visitor_id)
-        print("Visitor added.")
+    match choice:
 
-    elif choice == 2:
-        visitor_id = input("Enter Visitor ID: ")
+        case 1:
+            visitor_id = input("Enter Visitor ID: ")
+            visitors.add(visitor_id)
+            print("Visitor added.")
 
-        if visitor_id in visitors:
-            visitors.remove(visitor_id)
-            print("Visitor removed.")
-        else:
-            print("Visitor ID not found.")
+        case 2:
+            visitor_id = input("Enter Visitor ID: ")
 
-    elif choice == 3:
-        visitor_id = input("Enter Visitor ID: ")
+            if visitor_id in visitors:
+                visitors.remove(visitor_id)
+                print("Visitor removed.")
+            else:
+                print("Visitor ID not found.")
 
-        if visitor_id in visitors:
-            print("Visitor found.")
-        else:
-            print("Visitor not found.")
+        case 3:
+            visitor_id = input("Enter Visitor ID: ")
 
-    elif choice == 4:
-        print("All Visitors:", visitors)
+            if visitor_id in visitors:
+                print("Visitor found.")
+            else:
+                print("Visitor not found.")
 
-    elif choice == 5:
-        print("Unique Visitors:", len(visitors))
+        case 4:
+            print("All Visitors:", visitors)
 
-    elif choice == 6:
-        visitors.clear()
-        print("Visitor data cleared.")
+        case 5:
+            print("Unique Visitors:", len(visitors))
 
-    elif choice == 7:
-        print("Program ended.")
-        break
+        case 6:
+            visitors.clear()
+            print("Visitor data cleared.")
 
-    else:
-        print("Invalid choice.")
+        case 7:
+            print("Exiting.......")
+            break
+
+        case _:
+            print("Invalid choice.")
