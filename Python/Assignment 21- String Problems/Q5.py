@@ -3,7 +3,7 @@
                  Password Strength Analyzer '''
 
 password = input("Enter the password :")
-count = 0
+
 unique =""
 
 for ch in password:

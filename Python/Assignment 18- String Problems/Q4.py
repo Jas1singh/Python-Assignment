@@ -1,10 +1,10 @@
 # Assignment 18
 # Question 4 : Consonant Counter in Student Name Record
 
-message = input("Enter Student name : ").lower()
+message = input("Enter Student name : ")
 
 count = 0
-vowel = "aeiou"
+vowel = "aeiouAEIOU"
 
 for m in message:
     if m not in vowel and m!=" ":

@@ -7,14 +7,14 @@
 str = input("Enter the Enter the string:")
 
 words = str.split()
-max = len(str)
+min = len(str)
 shortWord = ""
 
 for word in words:
      length = (len(word))
 
-     if length < max:
-          max = length
+     if length < min:
+          min = length
           shortWord = word
 
 print(shortWord)

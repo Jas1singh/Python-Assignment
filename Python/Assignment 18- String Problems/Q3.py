@@ -7,7 +7,7 @@ ch = input("Enter character to check : ").lower()
 count = 0
 
 for m in message:
-    if m =="o":
+    if m == ch:
         count = count + 1
 
 print("Total vowels :",count)
