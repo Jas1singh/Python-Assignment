@@ -1,4 +1,4 @@
-# Assignment 35 - Lambda Functions 
+# Assignment 35 - Recursion 
 ''' Question 5:
 Hospital Record System (Search Digit)
 

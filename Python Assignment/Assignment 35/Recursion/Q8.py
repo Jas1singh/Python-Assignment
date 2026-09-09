@@ -1,4 +1,4 @@
-# Assignment 35 - Lambda Functions 
+# Assignment 35 - Recursion 
 ''' Question 7: 
 Assignment: File Compression System (String Compression)
 
