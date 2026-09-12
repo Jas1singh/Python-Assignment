@@ -47,6 +47,14 @@ y = Cdate.year - Jdate.year
 m = Cdate.month - Jdate.month
 d = Cdate.day - Jdate.day
 
+if d < 0:
+    d = d + 30
+    m = m - 1
+
+if m < 0:
+    m = m + 12
+    y = y - 1
+
 diff = Cdate - Jdate
 
 print("\nEmployee : ",Ename)
@@ -59,6 +67,6 @@ print("Total Days Worked : ",diff.days,"days")
 if y >=5:
     print("5 years completed : Yes")
 else:
-    print("5 years completed : Yes")
+    print("5 years completed : No")
 
 

@@ -587,6 +587,7 @@ def isPerfect(n):
 
 def isPalindrome(n):
     temp = n
+    rev = 0
     while temp>0:
         d = temp % 10
         rev = rev * 10 + d
@@ -677,6 +678,7 @@ def digitSum(n):
 
 
 def reverse(n):
+    rev = 0
     while n>0:
         d = n % 10
         rev = rev * 10 + d
