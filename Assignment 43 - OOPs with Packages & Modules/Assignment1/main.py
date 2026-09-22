@@ -1,4 +1,4 @@
-from Assignment1.Student_Management_System import class_module
+from Student_Management_System import class_module
 
 students = []
 
@@ -9,28 +9,28 @@ for i in range(5):
     name = input("Enter Name: ")
     marks = float(input("Enter Marks: "))
 
-    student = class_module.Student(roll_no, name, marks)
-    students.append(student)
+    obj = class_module.Student(roll_no, name, marks)
+    students.append(obj)
 
 
 print("\nAll Students:")
-for student in students:
-    student.display()
+for obj in students:
+    obj.display()
 
 
 print("\nStudents having marks greater than 60:")
-for student in students:
-    if student.marks > 60:
-        student.display()
+for obj in students:
+    if obj.marks > 60:
+        obj.display()
 
 
-highest_student = max(students, key=lambda student: student.marks)
+highest_student = max(students, key=lambda obj: obj.marks)
 
 print("\nHighest Marks:")
 highest_student.display()
 
 
-total_marks = sum(student.marks for student in students)
+total_marks = sum(obj.marks for obj in students)
 average_marks = total_marks / len(students)
 
 print("\nAverage Marks:")

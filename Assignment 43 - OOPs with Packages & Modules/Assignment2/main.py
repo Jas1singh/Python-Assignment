@@ -1,4 +1,4 @@
-from Assignment2.Employee_Management_System import class_module
+from Employee_Management_System import class_module
 
 employees = []
 
@@ -10,39 +10,34 @@ for i in range(5):
     salary = float(input("Enter Salary: "))
     department = input("Enter Department: ")
 
-    employee = class_module.Employee(
-        employee_id,
-        name,
-        salary,
-        department
-    )
+    obj = class_module.Employee(employee_id,name,salary,department)
 
-    employees.append(employee)
+    employees.append(obj)
 
 print("\nAll Employees:")
-for employee in employees:
-    employee.display()
+for obj in employees:
+    obj.display()
 
 
 print("\nEmployees with salary greater than 40000:")
-for employee in employees:
-    if employee.salary > 40000:
-        employee.display()
+for obj in employees:
+    if obj.salary > 40000:
+        obj.display()
 
 
 print("\nEmployees from IT Department:")
-for employee in employees:
-    if employee.department.lower() == "it":
-        employee.display()
+for obj in employees:
+    if obj.department.lower() == "it":
+        obj.display()
 
 
-highest_employee = max(employees, key=lambda employee: employee.salary)
+highest_employee = max(employees, key=lambda obj: obj.salary)
 
 print("\nHighest Salary Employee:")
 highest_employee.display()
 
 
-total_salary = sum(employee.salary for employee in employees)
+total_salary = sum(obj.salary for obj in employees)
 
 print("\nTotal Salary:")
 print(total_salary)

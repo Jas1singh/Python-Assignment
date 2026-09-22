@@ -1,4 +1,4 @@
-from Assignment3.Product_Inventory_System import class_module
+from Product_Inventory_System import class_module
 
 products = []
 
