@@ -1,4 +1,4 @@
-# Problem 3:
+# Problem 3:  Concatenate two strings.
 
 s1 = input("Enter the String 1: ").strip()
 s2 = input("Enter the String 2: ").strip()

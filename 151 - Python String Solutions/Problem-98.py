@@ -1,4 +1,4 @@
-# Problem 98:
+# Problem 98: Check if the first 'z' is immediately followed by another 'z'. 
 
 s1 = "zzyy"
 s2 = "zyzz"

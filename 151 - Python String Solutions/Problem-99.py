@@ -1,4 +1,4 @@
-# Problem 99:
+# Problem 99:  Check if a 'z' is happy (surrounded by same chars). 
 
 s = "azzb"
 

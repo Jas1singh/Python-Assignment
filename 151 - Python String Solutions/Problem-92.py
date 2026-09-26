@@ -1,4 +1,4 @@
-# Problem 92:
+# Problem 92: Check if two strings are pq-balanced.
 
 s1 = "pqqp"
 s2 = "qpqp"

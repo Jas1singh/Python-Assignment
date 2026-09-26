@@ -1,4 +1,4 @@
-# Problem 100:
+# Problem 100: Return true if string contains 'abc' not followed by '.'
 
 s1 = "abcx"
 s2 = "abc."

@@ -1,4 +1,4 @@
-# Problem 97:
+# Problem 97: Check if two given strings appear at the end of each other (ignoring case).
 
 s1 = "abc"
 s2 = "Xabc"

@@ -1,4 +1,4 @@
-# Problem 9:
+# Problem 9: Check whether a string is empty.
 
 s1 = input("Enter the String 1: ")
 s2 = input("Enter the String 2: ")

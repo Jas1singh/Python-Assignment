@@ -1,4 +1,4 @@
-# Problem 14:
+# Problem 14:  Find the first occurrence of a character
 
 s = input("Enter the String : ")
 ch = input("Enter the character : ")

@@ -1,4 +1,4 @@
-# Problem 96:
+# Problem 96: Find the second most frequent word.
 
 s = "a b a c b"
 

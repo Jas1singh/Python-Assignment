@@ -1,4 +1,4 @@
-# Problem 88:
+# Problem 88: Rearrange a string so that identical characters are at least d distance apart
 
 s = "aaabc"
 d = 2

@@ -1,4 +1,4 @@
-# Problem 91:
+# Problem 91: Check if two strings are interleaving of another string.
 
 s1 = "aab"
 s2 = "axy"

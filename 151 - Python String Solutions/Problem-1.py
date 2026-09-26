@@ -1,4 +1,4 @@
-# Problem 1:
+# Problem 1:  Find the length of a string. 
 
 s = input("Enter the String : ")
 count= 0

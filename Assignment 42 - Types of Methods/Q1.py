@@ -92,8 +92,7 @@ Task: Design a Python class named BankAccount and implement all the above method
 import random
 
 class BankAccount:
-
-    # Class Variables
+    
     bank_name = "UCO Bank"
     interest_rate = 5.0
 

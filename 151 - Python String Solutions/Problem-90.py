@@ -1,4 +1,4 @@
-# Problem 90:
+# Problem 90: Remove adjacent duplicates recursively
 
 s = "azxxzy"
 

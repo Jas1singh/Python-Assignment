@@ -1,4 +1,4 @@
-# Problem 89:
+# Problem 89: Remove 'b' and 'ac' from a string.
 
 s = "abacbb"
 

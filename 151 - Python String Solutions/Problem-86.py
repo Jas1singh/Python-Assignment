@@ -1,4 +1,4 @@
-# Problem 86:
+# Problem 86: Print all permutations of a string without repetition.
 
 s = "ab"
 

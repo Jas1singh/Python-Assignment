@@ -1,4 +1,4 @@
-# Problem 5:
+# Problem 5: Compare two strings ignoring case.
 
 s1 = input("Enter the String 1: ").lower()
 s2 = input("Enter the String 2: ").lower()

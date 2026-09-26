@@ -1,4 +1,4 @@
-# Problem 93:
+# Problem 93: Match strings with wildcard characters ($\*$, ?). 
 
 pattern = "a?c"
 text = "axcde"

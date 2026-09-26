@@ -1,4 +1,4 @@
-# Problem 15:
+# Problem 15:  Find the last occurrence of a character.
 
 s = input("Enter the String : ")
 ch = input("Enter the character : ")

@@ -1,4 +1,4 @@
-# Problem 2:
+# Problem 2: Copy one string to another. 
 
 s = input("Enter the String : ")
 

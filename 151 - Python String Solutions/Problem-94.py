@@ -1,4 +1,4 @@
-# Problem 94:
+# Problem 94: Find the smallest window containing all characters of another string
 
 s1 = "ADOBECODEBANC"
 s2 = "ABC"

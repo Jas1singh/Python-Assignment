@@ -2,7 +2,7 @@
 
 s = input("Enter the String : ")
 
-min = 9
+min = len(s)
 minChar = ""
 for i in s:
     c=0

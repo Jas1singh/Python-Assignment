@@ -1,4 +1,4 @@
-# Problem 85:
+# Problem 85: Convert string into a char array without built-in functions
 
 s = "test"
 char_array = []

@@ -1,4 +1,4 @@
-# Problem 83:
+# Problem 83: Create a string from a byte array
 
 byte = [72, 101, 108]
 

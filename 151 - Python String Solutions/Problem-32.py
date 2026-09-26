@@ -13,5 +13,5 @@ for w in words:
                 count+=1
         print(w,":",count)
         visited = visited + w
-print(visited)              
+              
 

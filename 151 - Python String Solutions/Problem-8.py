@@ -1,4 +1,4 @@
-# Problem 8:
+# Problem 8: Toggle the case of each character
 
 s = input("Enter the String : ")
 

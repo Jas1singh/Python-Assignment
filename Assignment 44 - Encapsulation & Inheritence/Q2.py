@@ -197,8 +197,6 @@ class PremiumSavingsAccount(SavingsAccount):
         print(f"Cashback Percentage: {self.cashback_percentage}%")
 
 
-# Taking input from user
-
 account_number = int(input("Enter Account Number: "))
 customer_name = input("Enter Customer Name: ")
 initial_balance = float(input("Enter Initial Balance: "))

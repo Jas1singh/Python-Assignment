@@ -1,4 +1,4 @@
-# Problem 18:
+# Problem 18:  Replace occurrences of a character.
 
 s = input("Enter the String : ")
 old = input("Enter the old character : ")

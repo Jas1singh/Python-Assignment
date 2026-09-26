@@ -1,4 +1,4 @@
-# Problem 95:
+# Problem 95:  Find the second most frequent character
 
 s = "aabbccdde"
 

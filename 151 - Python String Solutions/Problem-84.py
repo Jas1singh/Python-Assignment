@@ -1,4 +1,4 @@
-# Problem 84:
+# Problem 84: Print ASCII value of each character. 
 
 s = "A"
 

@@ -1,4 +1,4 @@
-# Problem 17:
+# Problem 17: Remove occurrences of a character.
 
 s = input("Enter the String : ")
 ch = input("Enter the character : ")
