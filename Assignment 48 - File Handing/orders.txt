@@ -1,0 +1,2 @@
+111 John Laptop 5 50000
+222 Smith TV 10 30000
