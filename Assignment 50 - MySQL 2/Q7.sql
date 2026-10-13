@@ -38,6 +38,7 @@ CREATE TABLE products (
     expiry_date DATE
 );
 
+
 INSERT INTO products
 (product_id, product_name, category, price, stock_quantity,
  supplier_name, manufacture_date, expiry_date)
@@ -59,5 +60,6 @@ VALUES
 
 (6, 'Cooking Oil', 'Grocery', 150.00, 120,
  'Golden Oils', '2026-08-01', NULL);
+ 
 
 SELECT * FROM products;
