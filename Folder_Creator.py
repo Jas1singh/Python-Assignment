@@ -22,14 +22,14 @@ import os
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Create the folder beside test.py
-folder_name = os.path.join(script_dir, "Assignment 48 - File Handing")
+folder_name = os.path.join(script_dir, "Assignment 49 - MySQL 1")
 
 os.makedirs(folder_name, exist_ok=True)
 
-for i in range(1,10):
+for i in range(1,4):
     file_path = os.path.join(folder_name, f"Q{i}.py")
     with open(file_path, "w") as file:
-        file.write(f"# Assignment 48 - File Handing \n''' Question {i}: \n\n'''\n\n")
+        file.write(f"# Assignment 49 - MySQL 1 \n''' Question {i}: \n\n'''\n\n")
 
 print("Created successfully!")
 print("Folder:", folder_name)
